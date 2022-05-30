@@ -8,7 +8,7 @@ import RPi.GPIO as GPIO
 from time import sleep
 
 
-class Featur3:
+class Feature3:
     def __init__(self):
         self.distSensor=DistanceSensor(echo=3 ,trigger=2 ,threshold_distance=1)
         self.servo=Servo(24)
@@ -42,5 +42,5 @@ class Featur3:
         self.checkDistance()
 
 if __name__=='__main__':
-    F3=Featur3()
+    F3=Feature3()
     F3.run_feature3()
