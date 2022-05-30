@@ -63,3 +63,7 @@ class Feature1:
         self.checkButtons(self.led3)  
         self.checkButtons(self.led4)
 
+if __name__=='__main__':
+    F1=Feature1()
+    F1.run_Feature1()
+
