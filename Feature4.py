@@ -26,7 +26,7 @@ class Feature4():
             else:
                 self.hallwayLight(0)
 
-    def run_feature4(self):
+    def run_Feature4(self):
         self.hallwayt()
 
 if __name__=='__main__':

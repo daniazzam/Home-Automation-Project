@@ -40,9 +40,9 @@ class Feature2:
             self.camera.capture('/home/pi/Desktop/image%s.jpg' % self.count)
             self.camera.stop_preview()
             self.count+=1
-    def run_feature2(self):
+    def run_Feature2(self):
         self.camera_light()
 
 if __name__=='__main__':
     F2=Feature2()
-    F2.run_feature2()
+    F2.run_Feature2()

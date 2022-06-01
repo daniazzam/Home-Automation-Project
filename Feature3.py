@@ -42,7 +42,7 @@ class Feature3:
             #close the gate using servo by setting to its min position 0 degrees (closed)
             self.servo.min()
 
-    def run_feature3(self):
+    def run_Feature3(self):
         self.checkDistance()
 
 if __name__=='__main__':
